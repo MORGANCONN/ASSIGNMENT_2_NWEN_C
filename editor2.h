@@ -9,6 +9,6 @@
 
 int editor_count_lines(char *editing_buffer,int buffer_size);
 
-int *editor_search_multiple(char *editing_buffer,int buffer_size, char searchString,int results[],int resultsSize);
+char *editor_search_multiple(char *editing_buffer, int buffer_size, const char *searchString, int results[], int resultsSize);
 
 #endif //ASSIGNMENT_2_NWEN_C_EDITOR2_H
