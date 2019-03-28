@@ -3,4 +3,4 @@ project(ASSIGNMENT_2_NWEN_C C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(ASSIGNMENT_2_NWEN_C main.c editor2.h)
+add_executable(ASSIGNMENT_2_NWEN_C editor2.c editor2.h)
